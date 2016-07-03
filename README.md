@@ -2,6 +2,8 @@
 
 Ergänzt das "fexbile" Backend-Theme von Contao 3.5 indem die Icons und das Erscheinungsbild an das Backend-Theme von Contao 4.2 angeglichen wurden.
 
+##Screenshot
+http://share.heimseiten.de/flexible_c4.png
 
 ##Installation
 flexible_c4.css + icons =>  /system/theme/
