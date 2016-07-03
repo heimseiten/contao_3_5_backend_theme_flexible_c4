@@ -12,3 +12,9 @@ dcaconfig.php + initconfig.php  =>  /system/config/
 Die Datei "flexible_c4.css" und der Ordner "icons" (entspricht dem Ordner "icons" aus dem Contao 4.2 Backend-Theme) muss ins Verzeichnis /system/theme/ kopiert werden. Die Datei dcaconfig.php und initconfig.php in das Verzeichnis /system/config/.
 
 Falls die vorhandenen Dateien dcaconfig.php und initconfig.php schon Anpassungen enthalten, sollten nur die Inhalte der Dateien übernommen werden.
+
+
+#Besonderheit
+In den letzen Zeilen der flexible_c4.css wird der Hintergrund dunkel gestellt. Dies kann durch das löschen der Zeilen geändert werden.
+
+Außerdem wird in den letzten Zeilen der flexible_c4.css die Artikelansicht in Contao so eingestellt, dass die Seitennamen nicht mehr anklickbar sind. Diese original Funktionalität von Contao führt bei den meisten meiner Kunden zu Verwirrungen. 
