@@ -93,6 +93,8 @@ select.tl_select_unit { margin-top: 0px;}
 
 .no_padding { padding: 6px; }
 
+p.tl_error.tl_permalert { margin-top: 10px; }
+
 
 .tip-top { height: 6px; position: absolute; top: -13px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 7px solid #333; }
 .tip { max-width: 320px; padding: 6px 9px; border-radius: 2px; background: #333; box-shadow: none; }
