@@ -17,6 +17,6 @@ Falls die vorhandenen Dateien dcaconfig.php und initconfig.php schon Anpassungen
 
 
 ##Besonderheiten
-In den letzen Zeilen der flexible_c4.css wird der Hintergrund dunkel gestellt. Dies kann durch das löschen der Zeilen geändert werden.
+In den letzen Zeilen der flexible_c4.css wird der **Hintergrund dunkel** gestellt. Dies kann durch das löschen der Zeilen geändert werden.
 
-Außerdem wird in den letzten Zeilen der flexible_c4.css die Artikelansicht in Contao so eingestellt, dass die Seitennamen nicht mehr anklickbar sind. Diese original Funktionalität von Contao führt bei den meisten meiner Kunden zu Verwirrungen. 
+Außerdem wird in den letzten Zeilen der flexible_c4.css die Artikelansicht in Contao so eingestellt, dass die **Seitennamen nicht mehr anklickbar** sind. Diese original Funktionalität von Contao führt bei den meisten meiner Kunden zu Verwirrungen. 
