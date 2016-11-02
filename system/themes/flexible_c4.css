@@ -41,6 +41,9 @@ strong, #tl_navigation .tl_level_2 a.active { font-weight: 700; font-family: 'Ro
 #main .tl_folder_top { padding: 6px 0; }
 #main .tl_folder, #main .tl_file, #main .tl_file_list { padding: 5px 0; }
 #main .tl_panel, .tl_version_panel { border: none; }
+#main #tl_shortcuts { background: #fff; padding: 0px 5px 5px; border: 1px solid #ddd; display: inline-block; margin-bottom: 0px; }
+#main #tl_versions .tl_listing thead tr th { font-weight: 600; padding: 7px; background: #eee; }
+#main #tl_versions .tl_listing tr { border-bottom: 1px solid #ddd; }
 #main .header_new { padding-left: 18px; background-image: url("../../system/themes/icons/new.svg"); }
 #main .header_toggle { background: url("../../system/themes/icons/folPlus.svg") no-repeat -1px center; }
 #main .header_edit_all { background-image: url("../../system/themes/icons/all.svg"); }
@@ -56,7 +59,7 @@ p.sort_hint { background-color: transparent; }
 #pal_image_legend .trbl_bottom,
 #pal_image_legend .trbl_left,
 #pal_image_legend .trbl_right,
-#ctrl_playerSize .tl_text_2
+#ctrl_playerSize .tl_text_2,
 .tl_text_4.tl_imageSize_0,
 .tl_text_4.tl_imageSize_1
  { padding: 2px !important; }
@@ -95,6 +98,9 @@ select.tl_select_unit { margin-top: 0px;}
 
 p.tl_error.tl_permalert { margin-top: 10px; }
 
+img[src="system/themes/flexible/images/stop.png"] { padding: 10px; }
+form.tl_form[action="contao/confirm.php"] { padding: 10px 20px; }
+
 
 .tip-top { height: 6px; position: absolute; top: -13px; border-left: 7px solid transparent; border-right: 7px solid transparent; border-bottom: 7px solid #333; }
 .tip { max-width: 320px; padding: 6px 9px; border-radius: 2px; background: #333; box-shadow: none; }
@@ -102,16 +108,21 @@ p.tl_error.tl_permalert { margin-top: 10px; }
 /************************************************************************************************************** Login - Begin */
 #container #main > h2 { display: none; }
 #main > .tl_login_form { padding: 20px; }
+#main > .tl_login_form .tl_login_table td:nth-child(2n) { position: relative; }
+#main > .tl_login_form .tl_login_table td:nth-child(2n) div.styled_select.tl_select { width: 100%; }
+#main > .tl_login_form .tl_login_table td:nth-child(2n) select.tl_select { width: 100%; }
 #main #go_to_frontend { padding: 20px; }
 /************************************************************************************************************** End */
 
 
 /************************************************************************************************************** fixed Footer - Begin */
 #main .tl_formbody_submit { position: fixed; bottom: 0; z-index: 99; }
-@media (min-width: 1200px) { #main .tl_formbody_submit { width: 921px; } }
+#main .tl_install_form .tl_formbody_submit { position: relative; bottom: auto; z-index: 99; }
+@media (min-width: 1200px) { #main .tl_formbody_submit { width: 921px; } #main .tl_install_form .tl_formbody_submit { width: auto; } }
 #footer { padding: 12px 0 21px; text-align: left; }
 .tl_submit_container { border-right: 1px solid #fff; }
 .tl_formbody_submit { border-right: 1px solid #bbb; }
+.tl_install_form .tl_formbody_submit { border-right: 0px solid #bbb; }
 /************************************************************************************************************** End */
 
 /************************************************************************************************************** dark background - Begin */

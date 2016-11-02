@@ -2,6 +2,10 @@
 
 // Put your custom configuration here
 
+$GLOBALS['TL_DCA']['tl_page']['fields']['published']['default'] = true;
+$GLOBALS['TL_DCA']['tl_article']['fields']['published']['default'] = true;
+$GLOBALS['TL_LANG']['MSC']['copyOf'] = '%s';
+
 $GLOBALS['TL_DCA']['tl_article']['list']['operations']['edit']['icon'] = 'system/themes/icons/edit.svg'; 
 $GLOBALS['TL_DCA']['tl_article']['list']['operations']['editheader']['icon'] = 'system/themes/icons/header.svg'; 
 $GLOBALS['TL_DCA']['tl_article']['list']['operations']['copy']['icon'] = 'system/themes/icons/copy.svg'; 
