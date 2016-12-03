@@ -76,7 +76,7 @@
 	fieldset.tl_box:hover legend { background-color: #efefef; font-weight: 400; }
 	td { line-height: 1.3; }
 	
-	fieldset.tl_box>legend, fieldset.tl_tbox>legend { display: block; width: 100%; color: #589b0e; padding: 6px 0 6px 18px; background: #f3f3f3 url("/system/themes/icons/navcol.svg") left center no-repeat; cursor: pointer; }
+	fieldset.tl_box>legend, fieldset.tl_tbox>legend { display: block; color: #589b0e; padding: 6px 0 6px 18px; background: #f3f3f3 url("/system/themes/icons/navcol.svg") left center no-repeat; cursor: pointer; }
 	fieldset.collapsed>legend { background: #f3f3f3 url("/system/themes/icons/navexp.svg") left center no-repeat; } 
 	fieldset.collapsed { padding-top: 0; padding-bottom: 12px; margin-bottom: 0; }
 	
