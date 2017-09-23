@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
 @media (min-width:992px) {
-	body { background: #eaeaec; font: 300 .875rem/1 'Lato', sans-serif; color: #000; border-top: 42px solid #f58426; }
+	body {font: 300 .875rem/1 'Lato', sans-serif; color: #000; border-top: 42px solid #f58426; background: #132330; background-image: radial-gradient(#234058,#0f1c26); }
 	a, body, div, label, legend, li, ol, p, td, th, ul, fieldset, form, input, optgroup, select, textarea { font-family: 'Lato', verdana, arial; font-size: .875rem; font-weight: 300; color: #000; }
 	a, b, body, cite, div, em, h1, h2, h3, h4, h5, h6, i, label, legend, li, ol, p, strong, td, th, u, ul { font-family: 'Lato', verdana, arial;}
 	strong { font-weight: 400 !important; color: #000; }
@@ -23,7 +23,7 @@
 	#header > .collapsible_area > div a { color: #fff; background: none; padding: 0; font-size: 9px; }
 	
 	#container { display: flex; }
-	#left { background: #0f1c26; color: #d3d5d7; }
+	#left { background: #0f1c26; color: #d3d5d7; min-height: calc(100vh - 42px); }
 	#left a { color: #d3d5d7; }
 	#left #tl_navigation .tl_level_1_group a { background-color: #0f1c26 !important; border-bottom: 0px solid #3a454d !important; border-top: 1px solid #3a454d !important; }
 	
@@ -122,11 +122,7 @@
 	.tl_install_form .tl_formbody_submit { border-right: 0px solid #bbb; }
 	/************************************************************************************************************** End */
 	
-	/************************************************************************************************************** dark background - Begin */
-	body { background: #eaeaec; font-family: "Lato", sans-serif; }
 	#footer { display: none; }
-	#footer a { color: #ddd; font-size: 10px; }
-	/************************************************************************************************************** End */
 	
 	/************************************************************************************************************** prevent filter pagetree - Begin (Die Seitennamen sind damit in der Artikelansicht nicht mehr anklickbar. Das Anklicken und damit das Filtern führte für viele Anwendern zu Verwirrungen.) */
 	/* #main .tl_listing .tl_left a:last-child { pointer-events: none; cursor: default; } */
