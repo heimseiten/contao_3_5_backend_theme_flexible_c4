@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300');
 @media (min-width:992px) {
-	body {font: 300 .875rem/1 'Lato', sans-serif; color: #000; border-top: 42px solid #f58426; background: #132330; background-image: radial-gradient(#234058,#0f1c26); }
+	body {font: 300 .875rem/1 'Lato', sans-serif; color: #000; border-top: 42px solid #f58426; background: #132330; background-image: radial-gradient(#234058,#0f1c26); min-height: 100vh; }
 	a, body, div, label, legend, li, ol, p, td, th, ul, fieldset, form, input, optgroup, select, textarea { font-family: 'Lato', verdana, arial; font-size: .875rem; font-weight: 300; color: #000; }
 	a, b, body, cite, div, em, h1, h2, h3, h4, h5, h6, i, label, legend, li, ol, p, strong, td, th, u, ul { font-family: 'Lato', verdana, arial;}
 	strong { font-weight: 400 !important; color: #000; }
