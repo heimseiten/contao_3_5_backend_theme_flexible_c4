@@ -89,7 +89,7 @@
 	
 	.no_padding { padding: 6px; }
 	
-	p.tl_error.tl_permalert { margin-top: 10px; }
+	p.tl_error.tl_permalert { margin-top: 10px; position: relative; width: 919px; z-index: 1; display: inline-block; }
 	
 	img[src="system/themes/flexible/images/stop.png"] { padding: 10px; }
 	form.tl_form[action="contao/confirm.php"] { padding: 10px 20px; }
